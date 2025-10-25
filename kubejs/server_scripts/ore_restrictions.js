@@ -1,28 +1,20 @@
-const mekanism_ores_regular = [
-    'mekanism:tin_ore',
-    'mekanism:osmium_ore',
-    'mekanism:uranium_ore',
-    'mekanism:fluorite_ore',
-    'mekanism:lead_ore'
-]
-const mekanism_ores_deepslate = [
-    'mekanism:deepslate_tin_ore',
-    'mekanism:deepslate_osmium_ore',
-    'mekanism:deepslate_uranium_ore',
-    'mekanism:deepslate_fluorite_ore',
-    'mekanism:deepslate_lead_ore'
-]
+AStages.addRestrictionForOre("kall/ore/meka", "meka", Block.getBlock('mekanism:tin_ore').defaultBlockState(), Blocks.STONE.defaultBlockState())
+AStages.addRestrictionForOre("kall/ore/meka", "meka", Block.getBlock('mekanism:osmium_ore').defaultBlockState(), Blocks.STONE.defaultBlockState())
+AStages.addRestrictionForOre("kall/ore/meka", "meka", Block.getBlock('mekanism:uranium_ore').defaultBlockState(), Blocks.STONE.defaultBlockState())
+AStages.addRestrictionForOre("kall/ore/meka", "meka", Block.getBlock('mekanism:fluorite_ore').defaultBlockState(), Blocks.STONE.defaultBlockState())
+AStages.addRestrictionForOre("kall/ore/meka", "meka", Block.getBlock('mekanism:lead_ore').defaultBlockState(), Blocks.STONE.defaultBlockState())
 
-for (const item of mekanism_ores_regular) {
-    AStages.addRestrictionForOre("kall/ore/meka", "meka", item, "minecraft:stone")
-}
-for (const item of mekanism_ores_deepslate) {
-    AStages.addRestrictionForOre("kall/ore/meka", "meka", item, "minecraft:deepslate")
-}
 
-AStages.addRestrictionForOre("kall/ore/oritech", "ori", 'oritech:nickel_ore', "minecraft:stone")
-AStages.addRestrictionForOre("kall/ore/oritech", "ori", 'oritech:deepslate_nickel_ore', "minecraft:deepslate")
-AStages.addRestrictionForOre("kall/ore/oritech", "ori", 'oritech:endstone_platinum_ore', "minecraft:endstone")
-AStages.addRestrictionForOre("kall/ore/oritech", "ori", 'oritech:deepslate_platinum_ore', "minecraft:deepslate")
-AStages.addRestrictionForOre("kall/ore/oritech", "ori", 'oritech:deepslate_uranium_ore', "minecraft:deepslate")
-AStages.addRestrictionForOre("kall/ore/oritech", "ori", 'oritech:uranium_crystal', "minecraft:deepslate")
+AStages.addRestrictionForOre("kall/ore/meka", "meka", Block.getBlock('mekanism:deepslate_tin_ore').defaultBlockState(), Blocks.DEEPSLATE.defaultBlockState())
+AStages.addRestrictionForOre("kall/ore/meka", "meka", Block.getBlock('mekanism:deepslate_uranium_ore').defaultBlockState(), Blocks.DEEPSLATE.defaultBlockState())
+AStages.addRestrictionForOre("kall/ore/meka", "meka", Block.getBlock('mekanism:deepslate_uranium_ore').defaultBlockState(), Blocks.DEEPSLATE.defaultBlockState())
+AStages.addRestrictionForOre("kall/ore/meka", "meka", Block.getBlock('mekanism:deepslate_fluorite_ore').defaultBlockState(), Blocks.DEEPSLATE.defaultBlockState())
+AStages.addRestrictionForOre("kall/ore/meka", "meka", Block.getBlock('mekanism:deepslate_lead_ore').defaultBlockState(), Blocks.DEEPSLATE.defaultBlockState())
+
+
+AStages.addRestrictionForOre("kall/ore/oritech", "ori", Block.getBlock('oritech:nickel_ore').defaultBlockState(), Blocks.STONE.defaultBlockState())
+AStages.addRestrictionForOre("kall/ore/oritech", "ori", Block.getBlock('oritech:deepslate_nickel_ore').defaultBlockState(), Blocks.DEEPSLATE.defaultBlockState())
+AStages.addRestrictionForOre("kall/ore/oritech", "ori", Block.getBlock('oritech:endstone_platinum_ore').defaultBlockState(), "minecraft:endstone")
+AStages.addRestrictionForOre("kall/ore/oritech", "ori", Block.getBlock('oritech:deepslate_platinum_ore').defaultBlockState(), Blocks.DEEPSLATE.defaultBlockState())
+AStages.addRestrictionForOre("kall/ore/oritech", "ori", Block.getBlock('oritech:deepslate_uranium_ore').defaultBlockState(), Blocks.DEEPSLATE.defaultBlockState())
+AStages.addRestrictionForOre("kall/ore/oritech", "ori", Block.getBlock('oritech:uranium_crystal').defaultBlockState(), Blocks.DEEPSLATE.defaultBlockState())

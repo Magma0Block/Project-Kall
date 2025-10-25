@@ -1,0 +1,1 @@
+AStages.addRestrictionForModRecipe("modpack/recipes/mekanism", "meka", "mekanism:metallurgic_infusing/alloy/infused")
