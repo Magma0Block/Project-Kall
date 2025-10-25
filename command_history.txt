@@ -1,0 +1,50 @@
+/tp @s 299 96 300
+/kjs hand
+/ct hand
+/reload
+/ct hand
+/reload
+/ct hand
+/reload
+/locate biome minecraft:flower_forest
+/tp @s 367 77 -1509
+/ct hand
+/reload
+/ct hand
+/reload
+/setblock 697 111 -1818 minecraft:grass_block
+/setblock 697 110 -1818 minecraft:grass_block
+/setblock 697 110 -1818 minecraft:grass_block destroy
+/setblock 697 119 -1818 minecraft:grass_block destroy
+/sdm_stages add _MagmaBlock_ two
+/sdm_stages remove _MagmaBlock_ two
+/ponder
+/reload
+/advancement revoke _MagmaBlock_ everything
+/reload
+/kjs
+/kjs hand
+/reload
+/kjs errors
+/kjs errors server
+/kjs
+/kjs hand
+/reload
+/kjs errors server
+/reload
+/kjs errors server
+/reload
+/astages info _MagmaBlock_
+/reload
+/astages add _MagmaBlock_ meka
+/astages info _MagmaBlock_
+/reload
+/kjs hand
+/astages add _MagmaBlock_ ori
+/reload
+/effect give _MagmaBlock_ minecraft:night_vision infinite 0 true
+/kjs hand
+/reload
+/astages remove_all
+/astages remove_all _MagmaBlock_
+/tp ~1000 ~ ~

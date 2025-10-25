@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "2CBB3329F49B85B4"
+	group: ""
+	id: "2CBB3329F49B85B4"
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["398333F595C34FAE"]
+		hide_dependency_lines: true
+		id: "314952A800774629"
+		rewards: [{
+			exclude_from_claim_all: true
+			icon: {
+				id: "minecraft:sculk_sensor"
+			}
+			id: "084739233BBA819F"
+			table_id: 7191737252735275487L
+			type: "choice"
+		}]
+		tasks: [{
+			consume_items: true
+			count: 4L
+			id: "3E57D8365CF31CA8"
+			item: { count: 1, id: "minecraft:netherite_ingot" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

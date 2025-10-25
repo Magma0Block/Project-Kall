@@ -1,0 +1,113 @@
+{
+  "favorites": [
+    {
+      "stack": "item:minecraft:flint_and_steel",
+      "recipe": "minecraft:flint_and_steel"
+    },
+    {
+      "stack": "item:oritech:nuke",
+      "recipe": "oritech:crafting/nukebetter"
+    }
+  ],
+  "lookup_history": [
+    "item:oritech:fluxite_block",
+    "item:oritech:enderic_compound",
+    {
+      "type": "fluid",
+      "id": "oritech:still_strange_matter",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "oritech:still_sheol_fire",
+      "amount": 0
+    },
+    "item:oritech:enchantment_catalyst_block",
+    "item:oritech:enchanter_block",
+    "item:oritech:superconductor",
+    "item:oritech:overcharged_crystal",
+    "item:oritech:prometheum_ingot",
+    "item:oritech:heisenberg_compensator",
+    "item:oritech:large_storage_block",
+    "item:oritech:reactor_controller",
+    "item:oritech:reactor_redstone_port",
+    "item:oritech:nuke",
+    "item:oritech:low_yield_nuke",
+    "item:oritech:nickel_gem",
+    "item:oritech:nickel_ingot",
+    "item:oritech:magnetic_coil",
+    "item:oritech:motor",
+    "item:oritech:centrifuge_block",
+    "item:oritech:platinum_gem",
+    "item:oritech:platinum_ingot",
+    "item:oritech:duratium_ingot",
+    "item:oritech:machine_core_6",
+    "item:oritech:machine_core_7",
+    "item:oritech:deepslate_uranium_ore",
+    {
+      "type": "item",
+      "id": "oritech:raw_uranium",
+      "amount": 4
+    },
+    "item:oritech:uranium_crystal",
+    "item:oritech:raw_platinum_block",
+    "mekanism_chemical:mekanism:clean_osmium",
+    "item:oritech:electric_mace",
+    "item:minecraft:heavy_core",
+    "item:oritech:plutonium_pellet",
+    "item:createaddition:copper_wire",
+    "item:createaddition:electric_motor",
+    "item:createaddition:connector",
+    "item:oritech:industrial_glass_block",
+    "item:ftbquests:task_screen_configurator",
+    "item:ftbquests:screen_1",
+    "item:minecraft:stone",
+    "item:ftbquests:screen_7",
+    "item:oritech:dubios_container",
+    "item:oritech:steel_ingot",
+    "item:oritech:raw_biopolymer",
+    "item:oritech:biosteel_ingot",
+    "#item:c:ingots/steel",
+    "item:oritech:carbon_fibre_strands",
+    "item:oritech:processing_unit",
+    "item:oritech:flux_gate",
+    "item:oritech:ion_thruster",
+    "item:oritech:accelerator_motor",
+    "item:oritech:accelerator_controller",
+    "item:mekanismtools:osmium_sword",
+    "item:oritech:fluxite",
+    "item:oritech:atomic_forge_block",
+    "item:oritech:electrum_ingot",
+    "#item:c:ingots/electrum",
+    "item:oritech:foundry_block",
+    "item:oritech:fragment_forge_block",
+    "item:oritech:electrum_dust",
+    "item:minecraft:flint_and_steel",
+    "item:minecraft:magma_block",
+    {
+      "type": "fluid",
+      "id": "oritech:still_naphtha",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "oritech:still_silicon_wash",
+      "amount": 0
+    },
+    "item:oritech:refinery_block",
+    {
+      "type": "fluid",
+      "id": "oritech:still_steam",
+      "amount": 0
+    },
+    "item:oritech:machine_core_2"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

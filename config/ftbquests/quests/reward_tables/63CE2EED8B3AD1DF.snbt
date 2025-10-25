@@ -1,0 +1,31 @@
+{
+	id: "63CE2EED8B3AD1DF"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			auto: "invisible"
+			id: "138E98505E0A9B20"
+			stage: "ars"
+			type: "gamestage"
+		}
+		{
+			auto: "invisible"
+			id: "2945F25C0EB33B02"
+			stage: "meka"
+			type: "gamestage"
+		}
+		{
+			auto: "invisible"
+			id: "64A0966AC43FB7D3"
+			stage: "ori"
+			type: "gamestage"
+		}
+		{
+			auto: "invisible"
+			id: "7050229EA3E7ED6F"
+			stage: "create"
+			type: "gamestage"
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-10-24 20:56:44 +0300"
+    },
+    "done": true
+  },
+  "restrictedportals:root": {
+    "criteria": {
+      "root": "2025-10-24 20:56:44 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_slopes": "2025-10-24 20:56:44 +0300",
+      "minecraft:plains": "2025-10-24 20:58:00 +0300",
+      "minecraft:jagged_peaks": "2025-10-24 20:56:46 +0300"
+    },
+    "done": false
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2025-10-24 20:57:20 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-10-24 20:57:20 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2025-10-24 20:57:20 +0300"
+    },
+    "done": true
+  },
+  "restrictedportals:end": {
+    "criteria": {
+      "end": "2025-10-24 20:57:20 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2025-10-24 20:57:20 +0300"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
+}
